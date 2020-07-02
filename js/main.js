@@ -7,6 +7,20 @@ window.onload = function () {
         navigation: {
             nextEl: '.next',
             prevEl: '.prev'
+        },
+        breakpoints: {
+            1200: {
+                slidesPerView: 4
+            },
+            993: {
+                slidesPerView: 3
+            },
+            586: {
+                slidesPerView: 2
+            },
+            320: {
+                slidesPerView: 1
+            }
         }
     });
 };
